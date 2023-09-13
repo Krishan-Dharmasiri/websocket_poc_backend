@@ -1,0 +1,4 @@
+/bg_env
+/api_venv
+
+*.pyc

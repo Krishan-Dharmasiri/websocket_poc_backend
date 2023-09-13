@@ -14,7 +14,7 @@ def main() -> None :
         queue_manager = RabbitMQManager('localhost', 'websocket_queue')
 
         # Simulate processing data as a for loop
-        for i in range(5):
+        for i in range(25):
 
             # Generate Data
             start_range = 1

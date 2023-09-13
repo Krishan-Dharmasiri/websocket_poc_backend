@@ -40,7 +40,7 @@ async def websocket_endpoint(websocket: WebSocket):
                 try:
                     message = message_handler.messages.get(timeout=1)
                     await websocket.send_json(message)
-                    print("Received message:", message)
+                    # print("Received message:", message)
                 except queue.Empty:
                     # No message received yet
                     pass
